@@ -1,0 +1,3 @@
+dist
+.pyc
+nose_xvfb.egg-info
