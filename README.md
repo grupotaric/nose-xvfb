@@ -11,3 +11,7 @@ To use it, install the package and run `nosetests` along with the flag `--with-x
 - xvfbwrapper
 
 It requires the _xvfb_ executable already installed within the system. It can be usually found in the `xorg-server-xvfb` package.
+
+## Usage
+
+	nosetests --with-xvfb
