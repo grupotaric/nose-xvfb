@@ -16,7 +16,7 @@ setup(
     entry_points={'nose.plugins.0.10': ['nosexvfb = nosexvfb:Xvfb']},
     install_requires=requires,
     packages=find_packages(),
-    url='http://www.taric.es',
+    url='https://github.com/grupotaric/nose-xvfb',
     author='Taric S.A.',
     author_email='',
 )
