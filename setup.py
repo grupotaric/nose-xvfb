@@ -2,12 +2,12 @@
 
 from setuptools import setup, find_packages
 
-requires = ['nose', 'xvfbwrapper']
+requires = ['nose', 'xvfbwrapper<=0.2.2']
 
 setup(
     name='nose-xvfb',
     description='Virtual display nose plugin through Xvfb',
-    version='0.11',
+    version='0.12',
     classifiers=[
         "Programming Language :: Python",
         "Topic :: Software Development :: Testing",
