@@ -2,7 +2,7 @@
 
 from setuptools import setup, find_packages
 
-requires = ['nose', 'xvfbwrapper<=0.2.2']
+requires = ['nose', 'xvfbwrapper==0.2.9']
 
 setup(
     name='nose-xvfb',
