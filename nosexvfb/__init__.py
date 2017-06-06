@@ -1,1 +1,1 @@
-from xvfb import Xvfb
+from .xvfb import Xvfb
