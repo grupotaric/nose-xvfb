@@ -17,6 +17,7 @@ setup(
     install_requires=requires,
     packages=find_packages(),
     url='https://github.com/grupotaric/nose-xvfb',
-    author='Taric S.A.',
-    author_email='',
+    author='Javier Santacruz',
+    author_email='javier.santacruz.lc@gmail.com',
+    keywords=['testing', 'nose', 'xvfb', 'x.org']
 )
