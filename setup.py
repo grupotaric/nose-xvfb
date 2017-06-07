@@ -7,11 +7,10 @@ requires = ['nose', 'xvfbwrapper==0.2.9']
 setup(
     name='nose-xvfb',
     description='Virtual display nose plugin through Xvfb',
-    version='0.13',
+    version='0.13.1',
     classifiers=[
         "Programming Language :: Python",
         "Topic :: Software Development :: Testing",
-        "Framework :: nose",
     ],
     entry_points={'nose.plugins.0.10': ['nosexvfb = nosexvfb:Xvfb']},
     install_requires=requires,
