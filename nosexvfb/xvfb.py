@@ -23,12 +23,13 @@ class Xvfb(Plugin):
     def configure(self, options, noseconfig):
         super(Xvfb, self).configure(options, noseconfig)
         self.xvfb_options = {}
-        opts = [x.strip() for x in options.xvfb_options.split(",")]
-        for item in opts:
-            key, sign, value = item.partition("=")
-            if not value:
-                value = ''
-            self.xvfb_options[key] = value
+        if options.xvfb_options:
+            opts = [x.strip() for x in options.xvfb_options.split(",")]
+            for item in opts:
+                key, sign, value = item.partition("=")
+                if not value:
+                    value = ''
+                self.xvfb_options[key] = value
 
     def begin(self):
         logger.info('Starting xvfb virtual display 1024x768 with %s' % self.xvfb_options)
